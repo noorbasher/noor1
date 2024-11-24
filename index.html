@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر الهدايا</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="شعار متجر الهدايا">
+            <span>🎁 متجر الهدايا</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#features">المميزات</a></li>
+                <li><a href="#products">المنتجات</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Landing Section -->
+    <section id="home" class="landing">
+        <h1>مرحباً بكم في متجر الهدايا</h1>
+        <p>نقدم أفضل الهدايا المناسبة لكل المناسبات!</p>
+        <button>تسوق الآن</button>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2>لماذا نحن؟</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>جودة عالية</h3>
+                <p>نضمن تقديم هدايا بأعلى جودة لعملائنا الأعزاء.</p>
+            </div>
+            <div class="card">
+                <h3>توصيل سريع</h3>
+                <p>نوصّل طلباتك بسرعة وأمان.</p>
+            </div>
+            <div class="card">
+                <h3>تصاميم مميزة</h3>
+                <p>اكتشف تصاميم فريدة تناسب جميع الأذواق.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="container">
+        <h2 class="title">محفظتنا</h2>
+        <div class="line"></div>
+        <p class="desc">"اكتشف أفضل تصاميمنا المميزة." </p>
+        <div class="cards">
+            <!-- Card 1 -->
+            <div class="card">
+                <div class="card-img">
+                    <img src="1.jpg" alt="">
+                    <div class="layer"></div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <div class="card-img mg">
+                    <img src="2.jpg" alt="">
+                    <div class="layer"></div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <div class="card-img">
+                    <img src="3.jpg" alt="">
+                    <div class="layer"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>اتصل بنا</h2>
+        <form action="#">
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">الرسالة:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 متجر الهدايا. جميع الحقوق محفوظة.</p>
+        <div class="socials">
+            <a href="#">فيسبوك</a> | 
+            <a href="#">إنستغرام</a> | 
+            <a href="#">تويتر</a>
+        </div>
+    </footer>
+</body>
+</html>
